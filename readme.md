@@ -22,13 +22,32 @@ and you should see the following:
 exercises  inputs  lorem  lorem-copy  modules  outputs  README.md
 ```
 
+```(base) jbadenes-macbookpro:lab-bash-master jbadenes$ cd /Users/jbadenes/Desktop/IronHack/Labs/Bash/lab-bash-master
+(base) jbadenes-macbookpro:lab-bash-master jbadenes$ ls
+exercices	inputs		lorem		lorem-copy	outputs		readme.md```
+```
+
 3. Stay in the same directory/folder and complete the following exercises.
 
 ## Exercises
 
 1. Using the echo command print in console "Hello World". Here is some info about echo command [https://discuss.codecademy.com/t/what-are-practical-uses-of-the-echo-command/394788]
+
+```(base) jbadenes-macbookpro:lab-bash-master jbadenes$ echo "Hello World"
+Hello World```
+
 2. Create a new directory called `new_dir`.
+
+```(base) jbadenes-macbookpro:lab-bash-master jbadenes$ mkdir new_dir```
+
 3. Delete/Remove the directory `new_dir`.
+
+```(base) jbadenes-macbookpro:lab-bash-master jbadenes$ rm -r new_dir```
+
+4. Copy the file `sed.txt` from the `lorem` folder and paste it to the folder `lorem-copy` folder.
+
+```(base) jbadenes-macbookpro:lab-bash-master jbadenes$ cp -r lorem/sed.txt lorem-copy```
+
 4. Copy the file `sed.txt` from the `lorem` folder and paste it to the folder `lorem-copy` folder.
 5. Copy the other two files from the `lorem folder` to `lorem-copy` folder in just one line using semicolon `;`.
 6. Show the `sed.txt` file content from the `lorem` folder.
