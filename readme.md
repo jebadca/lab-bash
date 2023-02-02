@@ -35,18 +35,22 @@ exercices	inputs		lorem		lorem-copy	outputs		readme.md```
 
 ```(base) jbadenes-macbookpro:lab-bash-master jbadenes$ echo "Hello World"
 Hello World```
+```
 
 2. Create a new directory called `new_dir`.
 
 ```(base) jbadenes-macbookpro:lab-bash-master jbadenes$ mkdir new_dir```
+```
 
 3. Delete/Remove the directory `new_dir`.
 
 ```(base) jbadenes-macbookpro:lab-bash-master jbadenes$ rm -r new_dir```
+```
 
 4. Copy the file `sed.txt` from the `lorem` folder and paste it to the folder `lorem-copy` folder.
 
 ```(base) jbadenes-macbookpro:lab-bash-master jbadenes$ cp -r lorem/sed.txt lorem-copy```
+```
 
 4. Copy the file `sed.txt` from the `lorem` folder and paste it to the folder `lorem-copy` folder.
 5. Copy the other two files from the `lorem folder` to `lorem-copy` folder in just one line using semicolon `;`.
